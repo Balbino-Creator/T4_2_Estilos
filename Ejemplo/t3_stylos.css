@@ -1,0 +1,27 @@
+.lateral{
+box-sizing: border-box;
+width: max(8%, 200px);
+display: inline-block;
+position: fixed;
+padding-top: 30px;
+background-color:yellow;
+}
+
+html{
+height:100%;
+}
+
+.principal{
+margin-left: max(10%, 200px);
+padding: 0 10px;
+height: 100%;
+text-align: justify;
+background:red;
+}
+
+main{
+width: 80%;
+height: auto;
+margin:0 auto;
+background: aliceblue;
+}

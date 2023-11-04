@@ -1,0 +1,54 @@
+<html>
+
+<head>
+
+	· <title>
+		<!-- Sample -->
+	</title>
+
+	 <script type="text/javascript">
+		
+  function CambiaColorPanel(){
+
+	  document.getElementById("menuLateral").style.color = "blue";
+    document.getElementById("menuLateral").style.backgroundColor="red";
+  }
+
+
+  function OcultarPanel(){
+	  
+    if (document.getElementById("menuLateral").style.visibility!="hidden"){
+	      document.getElementById("menuLateral").style.visibility = "hidden";
+		  document.getElementById("ocultarMenu").innerHTML="Mostrar Menu";
+    }else{
+      document.getElementById("menuLateral").style.visibility = "visible";
+				document.getElementById("ocultarMenu").innerHTML="Ocultar Menu";
+    }
+   	//document.getElementById("menuLateral").style.display = "none";
+
+  }
+  
+	</script>
+
+<link rel="stylesheet" href="t3_stylos.css">
+	 </head>
+
+<body>
+
+	<button onclick="CambiaColorPanel()">CambiarFondo</button>
+<button id="ocultarMenu" onclick="OcultarPanel()">Ocultar Menu</button>
+  <br/>
+
+    <div id="menuLateral" class="lateral">
+        Menu Lateral
+    </div>
+
+    <div class="principal">
+        <header>Cabedera</header>
+        <br/>
+        <p> Contenido principal.....</p>
+    </div>
+
+ </body>
+
+</html>

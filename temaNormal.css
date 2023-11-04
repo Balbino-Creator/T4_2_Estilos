@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    height: 100%;
+}
+
+.principal{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    padding-left: 30px;
+    padding-right: 200px;
+}
+
+aside {
+    background-color: aqua;
+    width: 300px;
+}
+
+header {
+    background-color: azure;
+    margin-top: 15px;
+    padding: 7.5px;
+    border: 1px black solid;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    margin: 30px 0;
+}
+
+p{
+    margin-bottom: 25px;
+}
+
+main div{
+    padding: 10px;
+    background-color: yellow;
+    border: 1px black solid;
+}
